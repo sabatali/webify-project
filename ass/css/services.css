@@ -1,0 +1,231 @@
+
+
+
+
+
+
+
+.hero-section {
+    background-image: url(../img/workflow_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -96px;
+}
+
+.cs-hero-section-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    padding-top: 225px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.cs-hero-section-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 160px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*-====================================== section-2================== */
+
+.sec_2 
+{
+    background-color: #00152e;
+    margin-top: -103px;
+}
+.contant h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 193px;
+    padding-bottom: 40px;
+}
+
+.services-box{
+    column-gap: 15px;
+}
+
+.box
+{
+    max-width: 370px;
+    border: 2px solid #3b55c4;
+    border-radius:22px;
+    padding-top: 43px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.box>img
+{
+    padding-bottom:27px ;
+}
+
+.box h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+
+.box p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.line
+{
+    padding-top: 33px;
+
+}
+.line span
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.line img
+{
+   padding: 0;
+   padding-right: 10px;
+}
+
+.button_hrd_sr
+{
+    padding-bottom: 35px;
+}
+.button_hrd_sr a {
+    display: -webkit-inline-box;
+    text-decoration: none;
+    width: 190px;
+    height: 45px;
+    border: 1px solid red;
+    border-radius: 50px;
+    margin-top: 24px;
+}
+
+.button_hrd_sr a p {
+    margin-top: 10px;
+    margin-left: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: white;
+    transition: 0.5s;
+    text-transform: uppercase
+}
+
+.button_hrd_sr a img {
+    margin-top: 13px;
+    margin-left: 16px;
+    transition: 0.5s;
+}
+
+a img {
+    display: inline-block;
+    transition: bottom 2s;
+
+}
+
+.button_hrd_sr a:hover {
+    background-image: linear-gradient(to right, #cd4050, #fe7636);
+
+}
+
+
+.button_hrd_sr_1
+{
+    padding-top: 85px;
+    padding-bottom: 110px;
+}
+.button_hrd_sr_1 a {
+    display: -webkit-inline-box;
+    text-decoration: none;
+    width: 260px;
+    height: 65px;
+    border: 1px solid red;
+    border-radius: 50px;
+}
+
+.button_hrd_sr_1 a p {
+    margin-top: 21px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: white;
+    transition: 0.5s;
+    text-transform: uppercase
+}
+
+.button_hrd_sr_1 a img {
+    margin-top: 25px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+a img {
+    display: inline-block;
+    transition: bottom 2s;
+
+}
+
+.button_hrd_sr_1 a:hover {
+    background-image: linear-gradient(to right, #cd4050, #fe7636);
+
+}
+
+
+@media (max-width: 991px) {
+
+    .container{
+        max-width: 100%;
+    }
+    .services-box{
+        padding-left: 15px;
+        padding-right:15px;
+    }
+
+}
+
+@media (max-width: 784px) {
+
+    .box{
+        max-width: 100%;
+        min-height: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-left: 7px;
+    }
+ 
+}
+
+@media (max-width: 575px) {
+
+    .cs-hero-section-content h2{
+        font-size: 48px;
+    }
+    .contant h2{
+        font-size: 38px;
+    }
+    
+}
